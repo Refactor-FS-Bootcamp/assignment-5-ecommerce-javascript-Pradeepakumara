@@ -136,6 +136,11 @@ nav{
     border: 2px solid rebeccapurple;
 }
 
+.head-container button:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+
 /* ------------------------------------------------------------------------- */
 
 #item-section{

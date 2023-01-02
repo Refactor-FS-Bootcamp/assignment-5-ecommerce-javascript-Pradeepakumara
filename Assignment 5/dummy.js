@@ -196,35 +196,6 @@ const sparksItems = [
 
 const container = document.querySelector('.item-container');
 
-// container.innerHTML = `<article class="sparks-item">
-// <img src=${sparksItems[0].image} alt="item1">
-// <div class="color-circle">
-//     <div class="wh"></div>
-//     <div class="bl"></div>
-//     <div class="gr"></div>
-//     <div class="re"></div>
-//     <div class="ye"></div>
-//     <div class="or"></div>
-// </div>
-// <h2>${sparksItems[0].title}</h2>
-// <p class="main-p1">${sparksItems[0].name}</p>
-// <div class="start-rating">
-//     <i class="fa-solid fa-star"></i>
-//     <i class="fa-solid fa-star"></i>
-//     <i class="fa-solid fa-star"></i>
-//     <i class="fa-solid fa-star"></i>
-//     <i class="fa-regular fa-star"></i>
-//     <span><i class="fa-solid fa-chevron-down"></i>${sparksItems[0].ratings}</span>
-// </div>
-// <div class="price">
-//     <p class="p1"><sup>&#8377;</sup>${sparksItems[0].offerdPrice}</p>
-//     <p class="p2">&#8377;${sparksItems[0].actualPrice}</p>
-//     <p class="p3">(${sparksItems[0].offer})</p>
-// </div>
-// <p class="main-p2"> <span>&#10003;</span>prime</p>
-// <p class="main-p3">${sparksItems[0].delivery}</p>
-// </article>`;
-
 // ForEach
 sparksItems.forEach(function(item){
     container.innerHTML += `<article class="sparks-item">
